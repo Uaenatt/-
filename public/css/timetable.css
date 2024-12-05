@@ -1,0 +1,479 @@
+#timetable_container {
+    text-align:center;
+    font-size: 1em;
+}
+
+#timetable_container hr {	
+	margin-top:20px;
+	margin-bottom:20px;
+}
+
+#timetable_menu{
+
+
+}
+#timetable_container table {
+    margin-right: auto; 
+    margin-left: auto;
+    text-align:left;
+    border-spacing: 2px;
+    border-collapse: separate;
+}
+
+#timetable_container input,#timetable_container select,#timetable_container textarea  {
+    font-size: 1em;
+}
+
+#timetable_container input,#timetable_container select,#timetable_container textarea,#timetable_container button {
+    line-height: normal;
+}
+
+.align_center{
+    text-align:center;
+}
+
+
+.describe_blue{
+    font-size:80%;
+    color:blue;
+}
+
+.font-green{
+    color:green;
+}
+
+.font-red{
+    color:red;
+}
+
+.font-orange{
+    color:orange;
+}
+
+#tbl_timetable_menu td{
+    line-height: 25pt;
+    background-color:#E2EBF3;
+    min-width:550px;
+    padding:2px;
+}
+
+#tbl_timetable_menu th{
+    background-color:#5588BB;
+    color:#fff;
+    text-align:right;
+    min-width:250px;
+    padding:2px;
+}
+
+#tbl_timetable_menu .td_button{
+    padding:10px;
+    background-color:#fff;
+    text-align:center;
+}
+
+#tbl_timetable_menu .brief{
+    color:red;
+}
+
+#tbl_timetable_menu .fcrsdep td{
+    width: 670pt;
+}
+
+#tbl_timetable_menu .foption th{
+    background-color:#FC7D47;
+}
+
+#fType {
+    width: 130pt;
+}
+#fCategory{
+    width: 130pt;
+}
+
+#fCollege{
+    width: 200pt;	
+}
+
+#fDep{
+    width: 200pt;	
+}
+
+/*** .tbl_report ***/
+.tbl_report {
+    margin-right: auto; 
+    margin-left: auto;    
+    
+    border-bottom:solid #696969 1px;
+    border-right:solid #696969 1px;
+}
+
+.tbl_report td {
+    border-top:solid #696969 1px;
+    border-left:solid #696969 1px;
+    text-align: center;
+}
+
+.tbl_report th{
+    border-top:solid #696969 0.5px;
+    border-left:solid #696969 1px;
+    background-color: #5588BB;
+    color: #fff;
+    font-size: 150%;
+}
+
+.tr_caption {
+    font-size: 120%;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.tr_head{
+    background-color: #5588BB;
+    color: #fff;
+}
+
+.holiday{
+    background-color: #FFF0F8;
+}
+
+/*åè¡¨table--start--*/  
+table.table_list{
+    border-top:solid 1px #C0C0C0;
+    border-left:solid 1px #C0C0C0;
+}
+.table_list caption {
+    background:#0076AE;
+    background:#0094DB;
+    /*background:Gray;
+    background:none;*/
+    color:#fff;
+    /*color:#000;*/
+    font-size: 150%;
+    font-weight: bold;
+    padding: 3px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.table_list th,td{
+    padding-top:5px;
+    padding-bottom:5px;
+    border-right:solid 1px #C0C0C0;
+    border-bottom:solid 1px #C0C0C0;
+    font-size:90%;
+}
+
+.table_list th {
+    background:Silver;
+    background:#AAE3FF;
+    background:#82B9CE;
+    text-align:center;
+    padding-top: 10px;
+    padding-bottom: 10px;    
+    
+}
+
+.table_list td {
+    background:#E8E8E8;
+    background:#D6FCFB;
+    text-align:center;
+}
+
+.table_list_odd_row{
+    background:#D6FCFB;
+}
+
+.table_list_even_row{
+    background:#D5FDD6;
+}
+/*åè¡¨table--end--*/  
+
+#timetable_fun {
+    width:550px;
+    margin:auto;
+    text-align:left;
+}
+
+.loading{/*è¼å¥ä¸­çåç¤º css*/  
+    position:fixed !important;
+    position:absolute;
+    top:0;
+    left:0;
+    height:100%;
+    width:100%;
+    z-index:999;
+    background:#fff url("../images/ajax-loader.gif") 
+    no-repeat center center;
+    opacity:0.6;
+    filter:alpha(opacity=60);
+    font-size:14px;
+    line-height:20px;
+}
+
+.txt_left{
+    text-align:left;
+}
+
+input.checkbox{  
+	 width:200% ; 
+	 height:200% ;    
+}
+
+hr{margin-top:0px;}
+
+/*tabsçcss--start--*/  
+    ul, li {
+    	margin: 0;
+    	padding: 0;
+    	
+    }
+    ul.abgne_tab{
+        list-style-type: none;
+    }
+    .abgne_tab {
+    	clear: left;
+    	margin: 10px 0;
+    }
+    ul.tabs {
+    	width: 100%;
+    	height: 32px;
+    	border-bottom: 1px solid #999;
+    	border-left: 1px solid #999;
+    }
+    ul.tabs li {
+    	float: left;
+    	height: 31px;
+    	line-height: 31px;
+    	overflow: hidden;
+    	position: relative;
+    	margin-bottom: -1px;	/* è® li å¾ä¸ç§»ä¾é®ä½ ul çé¨ä»½ border-bottom */  
+    	border: 1px solid #999;
+    	border-left: none;
+    	background: #CEEFFF;
+    	color: #000;
+    }
+    ul.tabs li a {
+    	display: block;
+    	padding: 0 20px;
+    	color: #000;
+    	border: 1px solid #fff;
+    	text-decoration: none;
+    }
+    ul.tabs li a:hover {
+    	background: #009CE8;
+    	color:#fff;
+    	font-weight:normal;
+    }
+    ul.tabs li.active  {
+    	background: #fff;
+    	border-bottom: 1px solid #fff;
+    }
+    ul.tabs li.active a:hover {
+    	background: #009CE8;
+    	color: #fff;
+    }
+    div.tab_container {
+    	clear: left;
+    	width: 100%;
+    	border: 1px solid #999;
+    	border-top: none;
+    	background: #fff;
+    }
+    div.tab_container .tab_content {
+    	padding: 20px;
+    }
+    div.tab_container .tab_content h2 {
+    	margin: 0 0 10px;
+    }    
+    
+/*tabsçcss--end--*/	
+
+/*time_classroom_code--start--*/
+#div_time_classroom_code {
+    width:90%;
+    margin:auto;
+    color:#4D4D4D;
+}
+#div_time_classroom_code h1{
+    color:#5588BB;
+}
+
+#div_time_classroom_code .sub_div_time_classroom {
+    text-align:left;
+}
+
+#div_time_classroom_code dt{
+    /*color:#3366FF;*/
+    color:#fff;
+    background-color:#5588BB;
+    font-weight:bold;
+    width:10em;
+    padding:3px;
+}
+
+#div_time_classroom_code dt.tw{
+    width:6em;
+}
+
+#div_time_classroom_code .tbl_time th{
+    width:6em;
+}
+
+#div_time_classroom_code .tbl_time td{
+    width:12%;
+}
+
+#div_time_classroom_code .tbl_classroom th{
+    width:10em;
+}
+
+#div_time_classroom_code .rm_code{
+    width:4em;
+    color:#00A2A2;
+    font-weight:bold;
+}
+
+#div_time_classroom_code .rm_name{
+    width:15em;
+}
+
+#div_time_classroom_code .tr_classroom_even th{
+    background-color:#B4D7E2;
+}
+
+#div_time_classroom_code .tr_classroom_even td{
+    background-color:#F0FFFF;
+}
+
+.label {
+    display: inline;
+    padding: .2em .6em .3em;
+    font-size: 75%;
+    font-weight: 700;
+    line-height: 2;
+    color: #fff;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: baseline;
+    border-radius: .25em;
+}
+
+.label-costype-4 {
+    background-color: #FFB7DD;
+}
+
+.label-costype-5 {
+    background-color: #FF8888;
+}
+
+.label-costype-3 {
+    background-color: #9955FF;
+}
+
+.label-costype-7 {
+    background-color: #99DD00;
+}
+
+.label-costype-8 {
+    background-color: #FFCC22;
+}
+
+.label-costype-9 {
+    background-color: #FFFF77;
+    color:gray;
+}
+
+.label-costype-10 {
+    background-color: #88AA00;
+}
+
+.label-costype-11 {
+    background-color: #BBFF66;
+    color:gray;
+}
+
+.label-costype-12 {
+    background-color: #0000AA;
+}
+
+.label-costype-13 {
+    background-color: #2D8F68;
+}
+
+.label-costype-14 {
+    background-color: #33FFDD;
+    color:gray;
+}
+
+.label-costype-15 {
+    background-color: #0066FF;
+}
+.label-costype-16 {
+    background-color: #9F88FF;
+}
+.label-costype-17 {
+    background-color: #7700BB;
+}
+
+.label-costype-29 {
+    background-color: #6eba6e;
+}
+
+.label-costype-31 {
+    background-color: #785E88;
+}
+
+.label-costype-37 {
+    background-color: #d96600;
+}
+
+.label-costype-44 {
+    background-color: #b47295;
+}
+
+.label-costype-48 {
+    background-color: #c7bd2c;
+}
+
+.label-costype-52 {
+    background-color: #009cd9;
+}
+
+.label-costype-76 {
+    background-color: #a19703;
+}
+
+.label-costype-77 {
+    background-color: #5c5601;
+}
+
+#chcourse_web {
+    height:20pt;
+    width:1100px;
+    margin:auto;
+}
+/*#chcourse_web div{
+    float:right;
+}*/
+
+#chcourse_web div > a{
+    color:#fff;
+    background:#5588bb;
+    padding:3pt;
+    border-bottom: 2px solid #c0c0c0;
+    border-right: 2px solid #c0c0c0;
+    text-decoration:none;
+    font-size:80%;
+}
+
+#chcourse_web div > a:hover{
+    color:#5588bb;
+    background:#e2ebf3;
+}
+/*time_classroom_code--end--*/
+
+
+div.label-lg{
+    font-size:100%;
+    line-height:200%;
+}

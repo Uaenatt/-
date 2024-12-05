@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Course Timetable</title>
+    <script>
+        // Define modulePath before loading timetable.js
+        var modulePath = './'; // 修改為相對路徑
+    </script>
+    <script src="./js/jquery-3.6.0.min.js"></script>
+    <script src="./js/jquery-impromptu.min.js"></script>
+    <style>
+        .loading {
+            background: url('images/loading.gif') no-repeat center center;
+            min-height: 100px;
+        }
+        /* Add other required CSS styles */
+    </style>
+</head>
+<body>
+    <!-- Required container div -->
+    <div id="timetable_container">
+        <span class="title"></span>
+        <div id="chcourse_web">
+            <div></div>
+        </div>
+        <div id="timetable_menu"></div>
+        <div id="timetable_main"></div>
+        <div id="div_loading"></div>
+    </div>
+
+    <!-- Load timetable.js after DOM is ready -->
+    <script src="js/timetable.js"></script>
+</body>
+</html>

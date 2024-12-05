@@ -1,0 +1,48 @@
+<!DOCTYPE html >
+<html lang="zh-TW" xmlns="http://www.w3.org/1999/xhtml" xml:lang="zh-TW">
+<head>
+    <!-- 設定網頁的編碼、快取控制和相容性 -->
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <meta http-equiv="cache-control" content="no-cache">
+    <meta http-equiv="X-UA-Compatible" content="IE=7, IE=8, IE=9, IE=10" />
+    <meta name="menu-param" content="">
+    <!-- 網頁標題 -->
+    <title>國立陽明交通大學 課程時間表</title>
+    <!-- 引入 CSS 樣式表 -->
+    <link rel="stylesheet" type="text/css" href="public/css/timetable.css?token=9ec0155e7d3a320bf52217dcf73967fb522fb13d3f4631418fe878e451091934" />
+    <link rel="stylesheet" type="text/css" href="public/css/jquery-impromptu.css" />    
+    <!-- 引入 JavaScript 文件 -->
+    <script type="text/javascript" src="public/js/jquery-3.6.0.min.js"></script>
+    <script type="text/javascript" src="public/js/jquery-impromptu.min.js"></script>
+    <script type="text/javascript">
+        var modulePath = '';
+    </script>
+    <script type="text/javascript" src="public/js/timetable.js?token=9ec0155e7d3a320bf52217dcf73967fb522fb13d3f4631418fe878e451091934"></script>
+</head>
+<body>
+<div id="div_loading"></div>
+<div class="abgne_tab">
+    <!--ul class="tabs">
+        <li><a href="#timetable_container">課程時間表查詢</a></li>
+    </ul-->	
+    <div id="timetable_container">
+        <h1><span class="title">國立陽明交通大學 課程時間表</span></h1>
+        <div id="chcourse_web"><div></div></div>    
+        <div id="timetable_menu">
+        </div>
+        <hr />
+        <!--div id="timetable_fun">
+            <div name="td_show_hide">展開/隱藏：<input type="radio" name="all_td_show_hide" checked value="">全部展開 <input type="radio" name="all_td_show_hide" value="">全部隱藏</div>
+        </div-->
+        <div id="timetable_main">
+        </div>
+        <div name="param">
+            <input type="hidden" name="theType" value="">
+            <input type="hidden" name="theCategory" value="">
+            <input type="hidden" name="theCollege" value="">
+            <input type="hidden" name="theDep" value="">
+        </div>
+    </div>
+</div>
+</body>
+</html>
